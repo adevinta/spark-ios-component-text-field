@@ -13,7 +13,7 @@ import SwiftUI
 @testable import SparkTextField
 @_spi(SI_SPI) @testable import SparkTextFieldTesting
 @_spi(SI_SPI) import SparkCommonTesting
-import SparkThemingTesting
+@_spi(SI_SPI) import SparkThemingTesting
 import SparkTheming
 
 final class TextFieldViewModelTests: XCTestCase {
