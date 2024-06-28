@@ -9,7 +9,7 @@
 import XCTest
 
 @testable import SparkTextField
-import SparkThemingTesting
+@_spi(SI_SPI) import SparkThemingTesting
 
 final class TextFieldGetSpacingsUseCaseTests: XCTestCase {
 

@@ -8,7 +8,7 @@
 
 import Foundation
 @testable import SparkTextField
-import SparkThemingTesting
+@_spi(SI_SPI) import SparkThemingTesting
 
 extension TextFieldColors {
     static func mocked(
